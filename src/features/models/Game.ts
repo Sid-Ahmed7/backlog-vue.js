@@ -23,6 +23,7 @@ export interface Game {
     image_id: string
   }
   release_dates?: number[]
+  first_release_date?: number
   invloved_companies?: {
     company: {
       id: number

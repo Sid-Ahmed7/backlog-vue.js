@@ -1,10 +1,13 @@
 <script setup lang="ts">
-import GameList from './components/GameList.vue'
+import Navbar from './components/Navbar.vue'
 </script>
 
 <template>
+  <header>
+    <Navbar />
+  </header>
   <main>
-    <GameList />
+    <router-view />
   </main>
 </template>
 
